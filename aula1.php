@@ -18,6 +18,8 @@ $alunos = ["Cleide", "Valdisnei", "Marcio"];
 
 echo $message;
 
+$teste = "tete";
+
 
 var_dump($alunos);
 
