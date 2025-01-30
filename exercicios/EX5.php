@@ -1,7 +1,7 @@
 <?php
 
-//$nmrAl = rand(1,100);
-$nmrAl = 2;
+$nmrAl = rand(1,100);
+//$nmrAl = 2;
 
 
 for($tentativa = 1 ;$tentativa < 5 ; $tentativa++){
