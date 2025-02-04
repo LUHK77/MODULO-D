@@ -1,8 +1,8 @@
 <?php
 
-$numeros =[1,2,3,4,5,6,7,8,9,10];
+$numeros =[];
 
-for($i = 0; $i < count($numeros); $i++){
+for($i = 0; $i < 10; $i++){
     echo "Digite seu numero: ";
     $nmr = readline();
      $numeros[$i] = $nmr;
