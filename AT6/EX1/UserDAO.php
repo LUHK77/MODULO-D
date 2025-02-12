@@ -144,5 +144,4 @@ class UserDAO
     }
 }
 
-$b = new UserDAO();
-$b->menu();
+
