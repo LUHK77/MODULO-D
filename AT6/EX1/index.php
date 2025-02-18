@@ -1,6 +1,9 @@
 <?php
 
-include "UserDAO.php";
+include "UserPDO.php";
 
-$b = new UserDAO();
+$db = new PDO('sqlite:database.sqlite');
+
+$b = new UserPDO();
 $b->menu();
+

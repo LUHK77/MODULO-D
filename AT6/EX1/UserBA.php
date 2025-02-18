@@ -2,8 +2,7 @@
 
 include 'User.php';
 
-
-class UserDAO
+class UserBA
 {
 
     public array $users = [];
