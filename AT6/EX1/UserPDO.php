@@ -4,10 +4,6 @@ include 'User.php';
 
 class UserPDO
 {
-
-    public array $users = [];
-    public int $AId = 1;
-
     public function db(){
         return $db = new PDO('sqlite:database.sqlite');
     }
@@ -32,8 +28,7 @@ values (:nome, :email, :senha)');
                     'email' => $email,
                     'senha' => $senha,
                     ]
-                );
-                $this->AId++;
+                    );
                 echo "Usuario Cadastrado com sucesso\n";
             }
         }
