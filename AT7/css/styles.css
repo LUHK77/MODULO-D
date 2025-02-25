@@ -26,8 +26,12 @@ body{
 
 }
 
-#menu {
-    display: flex;
+.menu {
+    align-items: center;
+}
+
+.menu-conatainer {
+    text-align: center;
 }
 
 #menu-h {
@@ -82,6 +86,11 @@ body{
     color: var(--cor2);
 }
 
+.AssuntoGeral-container-img{
+    display: flex;
+    justify-content: space-between;
+}
+
 .AssuntoGeral-imagem{
     padding: 8rem;
 }
@@ -124,3 +133,14 @@ body{
     font-weight: 400;
 }
 
+.menu-link:hover {
+    color: var(--cor4);
+}
+
+@media (max-width: 1650px) {
+    .AssuntoGeral-container-img{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
