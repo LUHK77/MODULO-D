@@ -30,7 +30,7 @@ body{
     align-items: center;
 }
 
-.menu-conatainer {
+.menu-container {
     text-align: center;
 }
 
@@ -52,6 +52,20 @@ body{
     gap: 80px;
     color: var(--cor1);
     margin: 2rem;
+}
+
+.mais-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    gap: 80px;
+    border: solid 3px;
+    border-color: var(--cor2);
+    color: var(--cor2);
+    margin: 2rem;
+    width: 7rem;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 0.3rem;
 }
 
 .link {
@@ -123,6 +137,35 @@ body{
     color: var(--cor4);
 }
 
+.mais{
+    align-items: center;
+}
+
+.mais-container{
+    align-items: center;
+    text-align: center;
+}
+
+.mais-container-cards {
+    display: flex;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.mais-titulo{
+    padding: 1rem;
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+.poke-container{
+    border: solid 2px;
+    border-color: var(--cor4);
+    max-width: 400px;
+    align-items: center;
+    text-align: center;
+}
+
 .rodape {
     color:var(--cor1);
     background-color: var(--cor2);
@@ -137,7 +180,16 @@ body{
     color: var(--cor4);
 }
 
+.mais-link:hover {
+    background-color: #5c5b5b;
+}
+
 @media (max-width: 1650px) {
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+}    
     .AssuntoGeral-container-img{
         display: flex;
         align-items: center;
