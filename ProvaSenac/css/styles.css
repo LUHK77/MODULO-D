@@ -1,0 +1,96 @@
+:root{
+    --cor1: #363636;
+    --cor2: #3680ac;
+    --cor3: #c7bf53;
+    --cor4: #ffffff;
+    --fonte1: "Krona One", sans-serif;
+    --fonte2: "Montserrat", sans-serif;
+    --fonte3: "Honk", system-ui;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.info {
+    background-color: var(--cor2);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-container-base{
+    margin: 30px;
+    gap: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.info-icon {
+    border-radius: 300px;
+    height: 170px;
+    width: 240px;
+}
+
+.info-container-sb {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight:800;
+    margin: 1rem;
+    margin-left: 10rem;
+    color: var(--cor4);
+}
+
+.info-t {
+    font-size: 4rem;
+    margin-left: 23%;
+    position:relative;
+    color: var(--cor4);
+}
+
+.perfil{
+    background-color: var(--cor4);
+    margin: 1rem;
+}
+
+.perfil-t {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.perfil-container {
+    text-align: center;
+    font-size: 1.5rem;
+    gap: 1rem;
+    padding: 2rem;
+    list-style: none;
+}
+
+.perfil-conatainer-st{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.perfil-container-list{
+    list-style: none;
+}
+
+.Geral {
+    display: flex;
+    text-align: center;
+}
+
+.rodape {
+    color:var(--cor4);
+    background-color: var(--cor2);
+    padding: 18px;
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
