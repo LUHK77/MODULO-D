@@ -49,19 +49,20 @@ body{
 .menu-link{
     text-decoration: none;
     font-size: 1.5rem;
-    gap: 80px;
+    gap: 5rem;
     color: var(--cor1);
-    margin: 2rem;
+    margin: 1rem;
 }
+
 
 .mais-link{
     text-decoration: none;
     font-size: 1.5rem;
-    gap: 80px;
+    gap: 5rem;
     border: solid 3px;
     border-color: var(--cor2);
     color: var(--cor2);
-    margin: 2rem;
+    margin: 1rem;
     width: 7rem;
     justify-content: center;
     border-radius: 3px;
@@ -186,10 +187,15 @@ body{
 
 @media (max-width: 1650px) {
 
-body{
+*{
     max-width: 100%;
     max-height: 100%;
-}    
+}
+
+#menu-h{
+    justify-content: center;
+    display: flex;
+}
     .AssuntoGeral-container-img{
         display: flex;
         align-items: center;
