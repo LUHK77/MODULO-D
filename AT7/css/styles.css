@@ -10,6 +10,7 @@
     --fonte2: "Montserrat", sans-serif;
     --fonte3: "Honk", system-ui;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,6 @@ body{
     background-color: var(--cor1);
     color: var(--cor4);
     box-sizing: border-box;
-
 
 }
 
@@ -170,6 +170,9 @@ body{
     border-color: var(--cor4);
     max-width: 40%;
 }
+.poke-container p{
+    margin-bottom: 2rem;
+}
 
 .rodape {
     color:var(--cor1);
@@ -183,14 +186,25 @@ body{
 
 .menu-link:hover {
     color: var(--cor4);
+    transition: all 150ms ease-in-out;
 }
 
 .mais-link:hover {
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     color: var(--cor2);
+    box-shadow: 0 0 3px 3px var(--cor2);
+    transition: all 150ms ease-in-out;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1480px) {
+
+    .AssuntoGeral-container-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 540px) {
 
 *{
     max-width: 100%;
@@ -222,6 +236,10 @@ body{
 
     .poke-container{
         max-width: 80%;
+    }
+
+    .mais-titulo{
+        font-size: 2rem;
     }
 
 
