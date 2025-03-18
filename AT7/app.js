@@ -60,6 +60,39 @@ if(id == "2"){
         "vegetação para neutralizar o fogo e criar armadilhas de raízes e espinhos. Em um combate épico, Papaco tentou envolver Galo Cururu em uma prisão de plantas, mas o galo usou suas chamas para " +
         "queimá-las e se libertar, revidando com um golpe de fogo direto."
        }
+       if(id == "3"){
+        nome.document.body.innerHTML = "Pirarocu";
+        image.src = "img/pirarocu.gif";
+        atk.document.body.innerHTML = "ATK: 6";
+        hp.document.body.innerHTML = "HP: 80";
+        st.document.body.innerHTML = "ST: 26";
+        st.document.body.innerHTML = "DEF: 8";
+        habilidade1.document.body.innerHTML = "Soco Normal";
+        habilidade2.document.body.innerHTML = "Esquicho d'agua";
+        descricao.document.body.innerHTML = "Pirarocu era um peixe raro, com pernas musculosas e escamas que brilhavam como o mar sob o sol. Seu poder era único: a habilidade de manipular a água, moldando-a à sua vontade. Ele vivia nos rios" +
+        "profundos e tranquilos, até o dia em que o Grande Torneio de Monstros Mágicos foi anunciado. Criaturas de todas as partes se reuniriam para disputar a glória." +
+        "Pirarocu sentiu que esse torneio era a oportunidade de mostrar seu verdadeiro poder. Nas arenas flutuantes, lutava contra monstros gigantes e criaturas de fogo, criando enormes paredes de água e" +
+        "desferindo poderosos jatos líquidos. Seus adversários ficavam atônitos ao ver como ele controlava até os maiores volumes de água com agilidade e força." 
+       }
+
+       if(id == "4"){
+        nome.document.body.innerHTML = "Ashes";
+        image.src = "img/Ashes.gif";
+        atk.document.body.innerHTML = "ATK: 11";
+        hp.document.body.innerHTML = "HP: 60";
+        st.document.body.innerHTML = "ST: 20";
+        st.document.body.innerHTML = "DEF: 5";
+        habilidade1.document.body.innerHTML = "Soco Normal";
+        habilidade2.document.body.innerHTML = "Esfera de raio";
+        descricao.document.body.innerHTML = "Ashes era um bebê com a aparência de uma tempestade em miniatura: seu corpo emitia raios e sua pele brilhava como um céu durante uma tempestade. Nascido do coração de um relâmpago," +
+        "ele possuía o poder de controlar a eletricidade com um simples gesto. Apesar de sua idade, seu poder era imenso e incomparável." +
+        "Quando o Grande Torneio de Monstros Mágicos foi anunciado, Ashes, com sua energia incontrolável, viu a chance de provar que até um bebê poderia ser formidável. Ele entrou na arena com um sorriso" +
+        "travesso, seus olhos cintilando como estrelas de raios. Seus oponentes eram temidos por todos, mas Ashes não temia nada, disparando raios de pura energia que iluminavam a arena e deixavam os adversários atônitos." 
+       }
+}
+
+function cliqueD(){
+        showInfo(id.document.body.innerHTML);
 }
 
 
